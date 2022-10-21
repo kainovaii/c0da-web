@@ -1,5 +1,7 @@
 export default function Read() {
     return (
-        <h1>Read</h1>
+        <div className="text-center">
+            <h1>Read</h1>
+        </div>
     )
 }

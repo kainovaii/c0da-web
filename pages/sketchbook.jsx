@@ -15,16 +15,15 @@ export default function Sketchbook() {
                 <div className="advantages__item">
                     <div className="advantages__bg">
                         <div className="advantages__preview">
-                            <Image width={'100%'} src="/vehk_fire.png" alt="1" />
+                            <Image width={'1000%'} height={'1000%'} src="/vehk_fire.png"  alt="1" />
                         </div>
                     </div>
                     <div className="advantages__wrap">
-                        <div className="advantages__info" data-aos="animation-scale-top" data-aos-duration="800" data-aos-delay="400">Vehk with Nerevar</div>
+                        <div className="advantages__info">Vehk with Nerevar</div>
                         <div className="advantages__text">Misha Pabor</div>
                         <button className="advantages__btn btn btn_border">Artist page</button>
                     </div>
                 </div>
-
 
             </div>
         </div>

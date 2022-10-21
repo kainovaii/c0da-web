@@ -10,7 +10,7 @@ export default function Home() {
                     backgroundSize: "cover"
                 }} className="invite__bg"></div>
                 <div className="invite__wrap">
-                    <h2 className="invite__title d1" data-aos="animation-scale-top" data-aos-duration="600">C0DA</h2>
+                    <h2 className="invite__title d1">C0DA</h2>
                     <div className="invite__text">by Michael Kirkbride</div>
                 </div>
                 {/*
