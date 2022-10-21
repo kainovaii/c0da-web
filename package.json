@@ -2,7 +2,8 @@
   "name": "c0da",
   "version": "0.1.0",
   "engines": {
-    "yarn": "1.22.18"
+    "yarn": "1.22.18",
+    "node": "16.14.2"
   },
   "private": true,
   "scripts": {
