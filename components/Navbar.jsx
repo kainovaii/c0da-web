@@ -1,10 +1,15 @@
+import Image from "next/image"
 import Link from "next/link"
 
-export default () => {
+export default function Navbar() {
     return (
         <header class="header">
             <div class="header__center center">
-                <Link href={"/"}><a className="header__logo"><img class="header__pic header__pic_light" src="/logo.png" /></a></Link>
+                <Link href={"/"}>
+                    <a className="header__logo">
+                        <Image class="header__pic header__pic_light" src="/logo.png" alt="2" />
+                    </a>
+                </Link>
                 <div class="header__wrapper">
                     <nav class="header__nav">
                         <Link href={'/'}><a class="header__link">HOME</a></Link>

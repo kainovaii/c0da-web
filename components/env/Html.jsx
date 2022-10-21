@@ -1,4 +1,4 @@
-export default (props) => {
+export default function Html(props) {
     return (
         <>{props.children}</>
     )

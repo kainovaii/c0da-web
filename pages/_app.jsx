@@ -3,7 +3,7 @@ import Html from '../components/env/Html'
 import Navbar from '../components/Navbar'
 import Foot from '../components/Foot'
 
-export default ({ Component, pageProps }) => {
+export default function App({ Component, pageProps }) {
   return ( 
     <Html>
         <title>C0DA</title>

@@ -1,6 +1,4 @@
-import { Link } from 'next/link'
-
-export default () => {
+export default function Read() {
     return (
         <h1>Read</h1>
     )
