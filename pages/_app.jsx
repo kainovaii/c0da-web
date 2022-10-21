@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
     <Html>
         <title>C0DA</title>
         <Navbar />
-        <div class="page">
+        <div className="page">
           <Component {...pageProps} />
         </div>
         <Foot />
